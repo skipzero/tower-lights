@@ -22,3 +22,6 @@ def button():
     # Simulate button click action
     return 'Button pressed'
   return 'Button not pressed'
+
+if __name__ == '__main__':
+  app.run(debug= True, host='0.0.0.0', port=5000)
