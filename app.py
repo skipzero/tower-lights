@@ -7,7 +7,7 @@ GPIO.setmode(GPIO.BCM)
 
 pin_list = [1,2,3,4]
 BUTTON_PIN = 3
-GPIO.setup(pin_list, GPIO.IN)
+GPIO.setup(BUTTON_PIN, GPIO.IN)
 app = Flask(__name__)
 
 @app.route('/')
