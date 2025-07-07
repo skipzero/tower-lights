@@ -21,3 +21,5 @@ def button():
   if GPIO.input(BUTTON_PIN) == GPIO.HIGH:
     # Simulate button click action
     return 'handle_button_click()'
+  
+  return 'Button not pressed'
