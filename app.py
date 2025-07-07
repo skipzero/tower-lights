@@ -20,6 +20,5 @@ def button():
   '''This route simulates a button click.'''
   if GPIO.input(BUTTON_PIN) == GPIO.HIGH:
     # Simulate button click action
-    return 'handle_button_click()'
-  
+    return 'Button pressed'
   return 'Button not pressed'
